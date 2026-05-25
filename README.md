@@ -8,7 +8,13 @@ at Charles University, Prague.
 
 ## Available tools
 
-> *(Tools will be added here as they are released alongside publications.)*
+### `taxa-check/`
+Cross-platform tool (Python + Bash) for verifying consistency between FASTA
+sequence files and phylogenetic tree files, with utilities for cleaning
+internal node labels and batch-renaming FASTA headers and tree leaf labels.
+- **Language:** Python 3.7+ / Bash 4+
+- **Dependencies:** none (standard library only)
+- **Documentation:** [`taxa-check/README.md`](taxa-check/README.md)
 
 <!--
 Example entry format:
