@@ -217,3 +217,5 @@ Rules:
 - doubled quotes inside quoted Newick labels are decoded correctly, e.g. `'O''Brien'`
 - UTF-8 BOM input is handled automatically
 - `taxa_check.sh` is useful on shell-only systems where Python may be unavailable, but it supports only `check` and `clean`
+- `test_data/` includes a deliberately unpaired FASTA file (`NLRC3_all.fasta`)
+  to demonstrate the `NO_FASTA` / `NO_TREE` status
